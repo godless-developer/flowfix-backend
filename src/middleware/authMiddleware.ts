@@ -9,7 +9,7 @@ declare global {
     }
   }
 }
-
+// gg git version control obso
 const JWT_SECRET = process.env.JWT_SECRET || 'super-secret-key';
 
 export function authMiddleware(
